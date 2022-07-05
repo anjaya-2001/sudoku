@@ -1,12 +1,12 @@
 :root {
-    --bg-main: #f0f2f5;
-    --bg-body: #fff;
+     --bg-main: #eee1eefd;    /* custom property starts with -- */
+    --bg-body: #ecf1f18c;
     --color-txt: #000;
     --filled-color: #000;
     --filled-bg: #caf0f8;
 
     --white: #fff;
-    --blue: rgb(104, 184, 104);
+    --blue: rgb(14, 155, 68);
     --red: #e91e63;
     --black: #000;
 
@@ -25,10 +25,10 @@
 }
 
 .dark {
-    --bg-main: #2a2a38;
-    --bg-body: #1a1a2e;
+    --bg-main: #09090a;
+    --bg-body: #163642;
     --color-txt: #aca5a5;
-    --filled-color: #4f4f63;
+    --filled-color: #dfb023;
     --filled-bg: #000;
 }
 
@@ -227,7 +227,7 @@ nav {
     width: var(--sudoku-cell-size);
     border-radius: var(--border-radius);
     background-color: var(--bg-main);
-    color: greenyellow;
+    color: rgb(25, 168, 20);
     display: grid;
     place-items: center;
     font-size: var(--font-size);
